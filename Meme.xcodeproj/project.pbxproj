@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C528BE7121EFB5C600C2E0C9 /* MemeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528BE7021EFB5C600C2E0C9 /* MemeStruct.swift */; };
+		C528BE7321EFB89A00C2E0C9 /* SentMemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528BE7221EFB89A00C2E0C9 /* SentMemesViewController.swift */; };
+		C528BE7521EFBE2500C2E0C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528BE7421EFBE2500C2E0C9 /* DetailViewController.swift */; };
+		C528BE7721EFC28300C2E0C9 /* SentMemesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528BE7621EFC28300C2E0C9 /* SentMemesCollectionViewController.swift */; };
+		C528BE7921EFC4F700C2E0C9 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528BE7821EFC4F700C2E0C9 /* MemeCollectionViewCell.swift */; };
 		C5CFBB2221E168E6000EB9FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CFBB2121E168E6000EB9FB /* AppDelegate.swift */; };
-		C5CFBB2421E168E6000EB9FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CFBB2321E168E6000EB9FB /* ViewController.swift */; };
+		C5CFBB2421E168E6000EB9FB /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CFBB2321E168E6000EB9FB /* MemeEditorViewController.swift */; };
 		C5CFBB2721E168E6000EB9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CFBB2521E168E6000EB9FB /* Main.storyboard */; };
 		C5CFBB2921E168F0000EB9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CFBB2821E168F0000EB9FB /* Assets.xcassets */; };
 		C5CFBB2C21E168F0000EB9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CFBB2A21E168F0000EB9FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C528BE7021EFB5C600C2E0C9 /* MemeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeStruct.swift; sourceTree = "<group>"; };
+		C528BE7221EFB89A00C2E0C9 /* SentMemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMemesViewController.swift; sourceTree = "<group>"; };
+		C528BE7421EFBE2500C2E0C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C528BE7621EFC28300C2E0C9 /* SentMemesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMemesCollectionViewController.swift; sourceTree = "<group>"; };
+		C528BE7821EFC4F700C2E0C9 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5CFBB1E21E168E6000EB9FB /* Meme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CFBB2121E168E6000EB9FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5CFBB2321E168E6000EB9FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5CFBB2321E168E6000EB9FB /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
 		C5CFBB2621E168E6000EB9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5CFBB2821E168F0000EB9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5CFBB2B21E168F0000EB9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				C5CFBB2121E168E6000EB9FB /* AppDelegate.swift */,
-				C5CFBB2321E168E6000EB9FB /* ViewController.swift */,
+				C5CFBB2321E168E6000EB9FB /* MemeEditorViewController.swift */,
 				C5CFBB2521E168E6000EB9FB /* Main.storyboard */,
 				C5CFBB2821E168F0000EB9FB /* Assets.xcassets */,
 				C5CFBB2A21E168F0000EB9FB /* LaunchScreen.storyboard */,
 				C5CFBB2D21E168F0000EB9FB /* Info.plist */,
+				C528BE7021EFB5C600C2E0C9 /* MemeStruct.swift */,
+				C528BE7221EFB89A00C2E0C9 /* SentMemesViewController.swift */,
+				C528BE7621EFC28300C2E0C9 /* SentMemesCollectionViewController.swift */,
+				C528BE7421EFBE2500C2E0C9 /* DetailViewController.swift */,
+				C528BE7821EFC4F700C2E0C9 /* MemeCollectionViewCell.swift */,
 			);
 			path = Meme;
 			sourceTree = "<group>";
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CFBB2421E168E6000EB9FB /* ViewController.swift in Sources */,
+				C528BE7321EFB89A00C2E0C9 /* SentMemesViewController.swift in Sources */,
+				C5CFBB2421E168E6000EB9FB /* MemeEditorViewController.swift in Sources */,
+				C528BE7721EFC28300C2E0C9 /* SentMemesCollectionViewController.swift in Sources */,
+				C528BE7521EFBE2500C2E0C9 /* DetailViewController.swift in Sources */,
+				C528BE7921EFC4F700C2E0C9 /* MemeCollectionViewCell.swift in Sources */,
+				C528BE7121EFB5C600C2E0C9 /* MemeStruct.swift in Sources */,
 				C5CFBB2221E168E6000EB9FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96S59NFMT;
 				INFOPLIST_FILE = Meme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R96S59NFMT;
 				INFOPLIST_FILE = Meme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
